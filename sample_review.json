@@ -1,0 +1,98 @@
+{
+  "report": {
+    "title": "Website Review Report",
+    "client_name": "Acme Landscaping",
+    "site_name": "Acme Landscaping",
+    "site_url": "https://example.com",
+    "review_date": "2026-01-12",
+    "reviewer_name": "Ben",
+    "reviewer_brand": "Foriloop Studio"
+  },
+  "summary": {
+    "executive_summary": "Overall, the site is visually clear and communicates services well, but it needs improvements in performance, accessibility, and conversion clarity.",
+    "top_priorities": [
+      "Improve homepage CTA clarity and add a primary button above the fold.",
+      "Fix missing alt text and form label issues for accessibility.",
+      "Reduce image sizes and enable caching to improve load speed."
+    ]
+  },
+  "highlights": [
+    "Clean navigation and simple service layout.",
+    "Trust signals present (testimonials), but could be more prominent."
+  ],
+  "risks": [
+    "Slow mobile load time may reduce conversions.",
+    "Accessibility issues increase legal and usability risk."
+  ],
+  "findings": [
+  {
+    "id": "F-01",
+    "category": "Conversion / UX",
+    "severity": "High",
+    "effort": "Low",
+    "title": "Primary call-to-action is unclear on the homepage",
+    "what_we_found": "The homepage presents multiple calls-to-action above the fold (such as “Learn More”, “Services”, and “Contact”) without a clear visual hierarchy or primary action.",
+    "why_it_matters": "When visitors are unsure what action to take next, they are more likely to hesitate or leave the site. This often results in lower contact form submissions and reduced conversion rates.",
+    "recommendation": "Define one primary call-to-action that aligns with the site’s main business goal (for example, “Get a Free Quote”) and make it visually dominant above the fold. Secondary actions should be visually de-emphasized.",
+    "evidence": [
+      "Multiple buttons competing for attention in the hero section",
+      "No clear visual emphasis on a single primary action"
+    ]
+  },
+  {
+    "id": "F-02",
+    "category": "Performance",
+    "severity": "High",
+    "effort": "Medium",
+    "title": "Large, unoptimized images slow down page loading",
+    "what_we_found": "Several images, particularly on the homepage and service pages, appear to be large in file size and are not served in modern formats.",
+    "why_it_matters": "Slow-loading pages negatively affect user experience, especially on mobile devices, and can lead to higher bounce rates and lower search engine rankings.",
+    "recommendation": "Compress images, serve them in modern formats such as WebP or AVIF, and ensure responsive image sizing is used where possible.",
+    "evidence": [
+      "Hero and gallery images visually appear high-resolution and uncompressed",
+      "Mobile pages take noticeably longer to load than expected"
+    ]
+  },
+  {
+    "id": "F-03",
+    "category": "Accessibility",
+    "severity": "Medium",
+    "effort": "Low",
+    "title": "Missing or non-descriptive alternative text on images",
+    "what_we_found": "Several informative images across the site do not include descriptive alternative (alt) text.",
+    "why_it_matters": "Missing alt text reduces accessibility for users relying on screen readers and can also limit the site’s visibility in image search results.",
+    "recommendation": "Add clear, descriptive alt text to all informative images. Decorative images should use empty alt attributes to avoid unnecessary noise for assistive technologies.",
+    "evidence": [
+      "Service and content images without visible descriptive alt text"
+    ]
+  },
+  {
+    "id": "F-04",
+    "category": "Content Clarity",
+    "severity": "Medium",
+    "effort": "Low",
+    "title": "Page titles and headings lack descriptive clarity",
+    "what_we_found": "Some pages use generic titles and headings (for example, “Home” or “Services”) that do not clearly describe the page’s purpose or content.",
+    "why_it_matters": "Clear, descriptive titles and headings help users understand where they are on the site and also play an important role in search engine visibility and click-through rates.",
+    "recommendation": "Rewrite page titles and primary headings to clearly describe the page content and include relevant keywords where appropriate.",
+    "evidence": [
+      "Generic page titles observed on key pages",
+      "Headings that do not fully describe page intent"
+    ]
+  },
+  {
+    "id": "F-05",
+    "category": "Trust & Credibility",
+    "severity": "Low",
+    "effort": "Low",
+    "title": "Trust signals are present but not emphasized",
+    "what_we_found": "The site includes trust signals such as testimonials and contact information, but they are not prominently displayed or reinforced throughout key pages.",
+    "why_it_matters": "Clear trust signals help reassure visitors, especially first-time users, and can significantly impact conversion rates for service-based businesses.",
+    "recommendation": "Make trust signals more visible by highlighting testimonials near calls-to-action, adding social proof sections, and ensuring contact information is easy to find.",
+    "evidence": [
+      "Testimonials located low on the page or on secondary pages",
+      "Limited reinforcement of credibility near conversion points"
+    ]
+  }
+]
+}
